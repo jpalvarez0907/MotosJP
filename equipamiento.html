@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Equipamiento para Motociclistas</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background: linear-gradient(135deg, #1f1c2c, #928dab);
+      color: #fff;
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+    header {
+      background: #111;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+    }
+    header h1 {
+      margin: 0;
+      color: #f7c59f;
+    }
+    .navbar ul {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      background: #222;
+    }
+    .navbar li {
+      margin: 0 10px;
+    }
+    .navbar a {
+      color: #f7c59f;
+      text-decoration: none;
+      padding: 10px 15px;
+      display: inline-block;
+      transition: background 0.3s, color 0.3s;
+    }
+    .navbar a:hover {
+      background: #f7c59f;
+      color: #222;
+      border-radius: 5px;
+    }
+
+    main {
+      padding: 30px 10px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .equipamiento-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .equipamiento-item {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid #f7c59f;
+      border-radius: 15px;
+      overflow: hidden;
+      text-align: center;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .equipamiento-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px #f7c59f;
+    }
+    .equipamiento-item img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .equipamiento-item button {
+      background: transparent;
+      color: #f7c59f;
+      border: none;
+      font-size: 18px;
+      padding: 10px;
+      width: 100%;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .equipamiento-item button:hover {
+      background: #f7c59f;
+      color: #222;
+    }
+
+    footer {
+      text-align: center;
+      background: #111;
+      padding: 15px;
+      margin-top: 30px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Equipamiento para Motociclistas</h1>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="tipos.html">Tipos</a></li>
+        <li><a href="seguridad.html">Seguridad</a></li>
+        <li><a href="mantenimiento.html">Mantenimiento</a></li>
+        <li><a href="marcas.html">Marcas</a></li>
+       
+       
+        <li><a href="equipamiento.html">Equipamiento</a></li>
+       
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="equipamiento-grid">
+      
+      <div class="equipamiento-item">
+        <img src="Imagenes/casco.jpeg" alt="Casco">
+        <button>Casco</button>
+      </div>
+      
+      <div class="equipamiento-item">
+        <img src="Imagenes/chauqueta.jpeg" alt="Chaqueta">
+        <button>Chaqueta</button>
+      </div>
+
+      <div class="equipamiento-item">
+        <img src="Imagenes/guantes.jpeg" alt="Guantes">
+        <button>Guantes</button>
+      </div>
+
+      <div class="equipamiento-item">
+        <img src="Imagenes/botas.jpeg" alt="Botas">
+        <button>Botas</button>
+      </div>
+
+      <div class="equipamiento-item">
+        <img src="Imagenes/pantalones.jpeg" alt="Pantalones reforzados">
+        <button>Pantalones</button>
+      </div>
+
+      <div class="equipamiento-item">
+        <img src="Imagenes/rodillas.jpeg" alt="Protecciones">
+        <button>Protecciones</button>
+      </div>
+
+      <div class="equipamiento-item">
+        <img src="Imagenes/reflectivo.jpeg" alt="Chaleco reflectante">
+        <button>Chaleco Reflectante</button>
+      </div>
+
+      <div class="equipamiento-item">
+        <img src="Imagenes/mochila.jpeg" alt="Mochilas especiales">
+     <button>Mochilas</button>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Página MOTOSJP Juan Pablo - Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seguridad en Motocicletas - MOTOSJP</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #111;
+      color: #eee;
+    }
+
+    header {
+      background: #000;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      color: #4caf50;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      background: #222;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: #4caf50;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 10px 20px;
+      display: block;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    nav ul li a:hover {
+      background: #4caf50;
+      color: #222;
+      border-radius: 5px;
+    }
+
+    main {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    main h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      color: #4caf50;
+      text-align: center;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+    }
+
+    .card {
+      background: #222;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 20px;
+    }
+
+    .card-content h3 {
+      margin-top: 0;
+      color: #f7c59f;
+    }
+
+    .card-content p {
+      font-size: 1em;
+      line-height: 1.5;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #000;
+      margin-top: 40px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Seguridad en Motocicletas</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="tipos.html">Tipos</a></li>
+        <li><a href="seguridad.html">Seguridad</a></li>
+        <li><a href="mantenimiento.html">Mantenimiento</a></li>
+        
+       
+     
+        <li><a href="equipamiento.html">Equipamiento</a></li>
+      
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>¡Prioriza tu seguridad!</h2>
+
+    <div class="grid">
+      <div class="card">
+        <img src="Imagenes/casco.jpeg" alt="Casco de Moto">
+        <div class="card-content">
+          <h3>Uso del Casco</h3>
+          <p>El casco es el elemento de seguridad más importante. Reduce en un 70% el riesgo de muerte en accidentes. ¡Nunca salgas sin él!</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="Imagenes/protecciones.jpeg" alt="Protecciones y Ropa">
+        <div class="card-content">
+          <h3>Protecciones y Ropa Especializada</h3>
+          <p>Una chaqueta reforzada, guantes, botas y pantalones adecuados protegen contra impactos y abrasiones. Viste siempre equipo de protección completo.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="Imagenes/manejo.jpeg" alt="Técnicas de Manejo Seguro">
+        <div class="card-content">
+          <h3>Técnicas de Manejo Seguro</h3>
+          <p>Aprender técnicas como frenado de emergencia, evasión de obstáculos y conducción defensiva puede salvar tu vida en situaciones imprevistas.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="Imagenes/mantenimiento.jpeg" alt="Mantenimiento Preventivo">
+        <div class="card-content">
+          <h3>Mantenimiento Preventivo</h3>
+          <p>Verificar frenos, luces, neumáticos y fluidos regularmente asegura un desempeño seguro de tu motocicleta en todo momento.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 MOTOSJP Juan Pablo - Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
+
